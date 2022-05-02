@@ -3,11 +3,17 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Card from './components/card';
+import Footer from './components/footer';
+// import SimpleBottomNavigation from './materialui/seccion';
+// import Secciones from './materialui/secciones';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    <Card/>
+    <Footer/>
   </React.StrictMode>
 );
 

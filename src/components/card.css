@@ -1,0 +1,20 @@
+
+.card-container{
+    display: block;
+    text-align: center;
+    background-color: aquamarine;
+}
+.img-card{
+    max-width: 70%;
+    max-height: 70%;
+    margin: 20px;
+    border-radius: 15px;
+}
+.tittle{
+    font-size: 50px;
+    font-weight: 500;
+}
+.desciption{
+    text-align: justify;
+    padding: 0 150px 20px;
+}
